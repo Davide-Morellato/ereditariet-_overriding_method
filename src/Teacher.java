@@ -23,5 +23,11 @@ public class Teacher extends Person{
 
         //richiamo la proprietà
         this.subject = subject;
+    }  
+
+    //dichiaro un metodo accessibile solo per l'istanza di Teacher
+    void teaching(){
+        System.out.println("Sto insegnando....");
     }
 }
+
