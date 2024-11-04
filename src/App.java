@@ -14,12 +14,15 @@ public class App {
         //
         //
         //CREO ISTANZE DELLE CLASSI Teacher & Student (estendono la classe Person)
-        Teacher teacherOne = new Teacher("Gianni", "Neri", 52);
+        //
+        //avendo inserito una nuova proprietà è necessario aggiungerne il valore all'assegnazione
+        Teacher teacherOne = new Teacher("Gianni", "Neri", 52, "Storia");
 
         Student studentOne = new Student("Davide", "Bianchi", 35);
 
         System.out.println(studentOne.name); //stampo il valore della proprietà name di Student
         System.out.println(teacherOne.name); //stampo il valore della proprietà name di Teacher
+        System.out.println(teacherOne.subject);
 
     }
 }
