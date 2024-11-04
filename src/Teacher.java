@@ -29,5 +29,12 @@ public class Teacher extends Person{
     void teaching(){
         System.out.println("Sto insegnando....");
     }
+
+    //
+    //OVERRIDE METHOD (@Override) -> permette di poter sovrascrivere un metodo dichiarato nella classe padre, cambiandone le istruzioni
+    @Override //<- KEYWORD che identifica che il metodo verrà sovrascritto
+    void greed(){
+        System.out.println("Salve");
+    }
 }
 

@@ -10,4 +10,12 @@ public class Student extends Person {
     void studying(){
         System.out.println("Sto studiando....");
     }
+
+    //
+    //OVERRIDE METHOD
+    @Override
+    void greed(){
+        System.out.println("Buongiorno");
+    }
 }
+
