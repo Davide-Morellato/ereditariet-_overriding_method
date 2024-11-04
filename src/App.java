@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args){
         //creazione istanza
@@ -39,5 +41,10 @@ public class App {
         //ESSENDO STATO SOVRASCRITTO (Override) PRESENTA LA NUOVA STAMPA DI ISTRUZIONE
         teacherOne.greed(); //Salve
         studentOne.greed(); //Buongiorno
+
+        //stampo nel terminale l'array dichiarato in Student(int[] vote)
+        //Arrays -> metodo che permette di manipolare l'array
+        //toString -> metdodo che restituisce in stringa il contenuto dell'array
+        System.out.println(Arrays.toString(studentOne.vote));
     }
 }
